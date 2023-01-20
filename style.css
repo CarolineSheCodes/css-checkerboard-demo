@@ -1,0 +1,26 @@
+.square{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid #2ec4b6;
+}
+
+#board {
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.square:nth-of-type(even){
+    background-color: #BF4F51;
+}
+
+.square:nth-of-type(odd){
+    background-color: #3a3238;
+} 
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
